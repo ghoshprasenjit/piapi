@@ -11,7 +11,7 @@ flask-sqlalchemy = "*"
 pymysql = "*"
 flask-bcrypt = "*"
 flask-login = "*"
-simplejson = "==3.17.0"
+simplejson = "*"
 flask-cors = "*"
 colorama = "*"
 flask-marshmallow = "*"
@@ -21,8 +21,9 @@ gunicorn = "*"
 pip = "*"
 install = "*"
 waitress = "*"
+importlib-metadata = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.10"
